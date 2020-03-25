@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_1/DynamicSet.cpp
+DynamicSet.h
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_1/DynamicSet.h
+iostream
+-
+algorithm
+-
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_1/DynamicSet.h
+Node.h
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_1/Node.h
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_1/Node.cpp
+Node.h
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_1/Node.h
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_1/Node.h
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_1/main.cpp
+iostream
+-
+DynamicSet.h
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_1/DynamicSet.h
+
