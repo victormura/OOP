@@ -5,12 +5,19 @@
 int main() {
     using namespace std;
     // Initialization test vectors
-    int vector_1[] = {10, 101, 2, 47, 739, 582, 18, 134};
+    int vector_1[] = {10, 101, 2, 47, 739, 582, 18, 134, 18};
     int vector_2[] = {10, 101, 2, 47, 739, 582, 84, 3, 5};
 
     DynamicSet set1 = DynamicSet(vector_1, sizeof(vector_1)/4);
     DynamicSet set2 = DynamicSet(vector_2, sizeof(vector_2)/4);
+    set1.printSet();
+    cin >> set1;
+    set1.printSet();
+
+    /*
     cout << "Printeaza multimile: " << endl;
+
+
     set1.printSet();
     set2.printSet();
     cout << endl;
@@ -44,6 +51,6 @@ int main() {
     cout << "Copierea multimilor (DynamicSet(set))" << endl;
     result_set.printSet();
     cout << endl;
-
+*/
     return 0;
 }
