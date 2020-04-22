@@ -80,6 +80,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Monom.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Monom.h">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom.h">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_ireductibil.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_ireductibil.h">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_reductibil.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_reductibil.h">
+			<Option target="tema_2"/>
+		</Unit>
 		<Unit filename="/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/main.cpp">
 			<Option target="tema_2"/>
 		</Unit>

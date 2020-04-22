@@ -70,17 +70,77 @@ CMakeFiles/tema_2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/main.cpp -o CMakeFiles/tema_2.dir/main.cpp.s
 
+CMakeFiles/tema_2.dir/Monom.cpp.o: CMakeFiles/tema_2.dir/flags.make
+CMakeFiles/tema_2.dir/Monom.cpp.o: ../Monom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tema_2.dir/Monom.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tema_2.dir/Monom.cpp.o -c /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Monom.cpp
+
+CMakeFiles/tema_2.dir/Monom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/Monom.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Monom.cpp > CMakeFiles/tema_2.dir/Monom.cpp.i
+
+CMakeFiles/tema_2.dir/Monom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/Monom.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Monom.cpp -o CMakeFiles/tema_2.dir/Monom.cpp.s
+
+CMakeFiles/tema_2.dir/Polinom.cpp.o: CMakeFiles/tema_2.dir/flags.make
+CMakeFiles/tema_2.dir/Polinom.cpp.o: ../Polinom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tema_2.dir/Polinom.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tema_2.dir/Polinom.cpp.o -c /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom.cpp
+
+CMakeFiles/tema_2.dir/Polinom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/Polinom.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom.cpp > CMakeFiles/tema_2.dir/Polinom.cpp.i
+
+CMakeFiles/tema_2.dir/Polinom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/Polinom.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom.cpp -o CMakeFiles/tema_2.dir/Polinom.cpp.s
+
+CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.o: CMakeFiles/tema_2.dir/flags.make
+CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.o: ../Polinom_ireductibil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.o -c /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_ireductibil.cpp
+
+CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_ireductibil.cpp > CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.i
+
+CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_ireductibil.cpp -o CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.s
+
+CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.o: CMakeFiles/tema_2.dir/flags.make
+CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.o: ../Polinom_reductibil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.o -c /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_reductibil.cpp
+
+CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_reductibil.cpp > CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.i
+
+CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_reductibil.cpp -o CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.s
+
 # Object files for target tema_2
 tema_2_OBJECTS = \
-"CMakeFiles/tema_2.dir/main.cpp.o"
+"CMakeFiles/tema_2.dir/main.cpp.o" \
+"CMakeFiles/tema_2.dir/Monom.cpp.o" \
+"CMakeFiles/tema_2.dir/Polinom.cpp.o" \
+"CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.o" \
+"CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.o"
 
 # External object files for target tema_2
 tema_2_EXTERNAL_OBJECTS =
 
 tema_2: CMakeFiles/tema_2.dir/main.cpp.o
+tema_2: CMakeFiles/tema_2.dir/Monom.cpp.o
+tema_2: CMakeFiles/tema_2.dir/Polinom.cpp.o
+tema_2: CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.o
+tema_2: CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.o
 tema_2: CMakeFiles/tema_2.dir/build.make
 tema_2: CMakeFiles/tema_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tema_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tema_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tema_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

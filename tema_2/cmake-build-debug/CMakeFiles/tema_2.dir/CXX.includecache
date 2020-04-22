@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Monom.cpp
+Monom.h
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Monom.h
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Monom.h
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom.cpp
+iostream
+-
+cstdlib
+-
+Polinom.h
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom.h
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom.h
+Monom.h
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Monom.h
+iostream
+-
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_ireductibil.cpp
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom_reductibil.cpp
+
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/main.cpp
+iostream
+-
+Polinom.h
+/Users/admin/Desktop/Study/UNIBUC/year_I/semester_II/OOP/homeworks/tema_2/Polinom.h
+

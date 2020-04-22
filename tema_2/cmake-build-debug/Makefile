@@ -123,6 +123,114 @@ tema_2/fast:
 	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/build
 .PHONY : tema_2/fast
 
+Monom.o: Monom.cpp.o
+
+.PHONY : Monom.o
+
+# target to build an object file
+Monom.cpp.o:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Monom.cpp.o
+.PHONY : Monom.cpp.o
+
+Monom.i: Monom.cpp.i
+
+.PHONY : Monom.i
+
+# target to preprocess a source file
+Monom.cpp.i:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Monom.cpp.i
+.PHONY : Monom.cpp.i
+
+Monom.s: Monom.cpp.s
+
+.PHONY : Monom.s
+
+# target to generate assembly for a file
+Monom.cpp.s:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Monom.cpp.s
+.PHONY : Monom.cpp.s
+
+Polinom.o: Polinom.cpp.o
+
+.PHONY : Polinom.o
+
+# target to build an object file
+Polinom.cpp.o:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Polinom.cpp.o
+.PHONY : Polinom.cpp.o
+
+Polinom.i: Polinom.cpp.i
+
+.PHONY : Polinom.i
+
+# target to preprocess a source file
+Polinom.cpp.i:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Polinom.cpp.i
+.PHONY : Polinom.cpp.i
+
+Polinom.s: Polinom.cpp.s
+
+.PHONY : Polinom.s
+
+# target to generate assembly for a file
+Polinom.cpp.s:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Polinom.cpp.s
+.PHONY : Polinom.cpp.s
+
+Polinom_ireductibil.o: Polinom_ireductibil.cpp.o
+
+.PHONY : Polinom_ireductibil.o
+
+# target to build an object file
+Polinom_ireductibil.cpp.o:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.o
+.PHONY : Polinom_ireductibil.cpp.o
+
+Polinom_ireductibil.i: Polinom_ireductibil.cpp.i
+
+.PHONY : Polinom_ireductibil.i
+
+# target to preprocess a source file
+Polinom_ireductibil.cpp.i:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.i
+.PHONY : Polinom_ireductibil.cpp.i
+
+Polinom_ireductibil.s: Polinom_ireductibil.cpp.s
+
+.PHONY : Polinom_ireductibil.s
+
+# target to generate assembly for a file
+Polinom_ireductibil.cpp.s:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Polinom_ireductibil.cpp.s
+.PHONY : Polinom_ireductibil.cpp.s
+
+Polinom_reductibil.o: Polinom_reductibil.cpp.o
+
+.PHONY : Polinom_reductibil.o
+
+# target to build an object file
+Polinom_reductibil.cpp.o:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.o
+.PHONY : Polinom_reductibil.cpp.o
+
+Polinom_reductibil.i: Polinom_reductibil.cpp.i
+
+.PHONY : Polinom_reductibil.i
+
+# target to preprocess a source file
+Polinom_reductibil.cpp.i:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.i
+.PHONY : Polinom_reductibil.cpp.i
+
+Polinom_reductibil.s: Polinom_reductibil.cpp.s
+
+.PHONY : Polinom_reductibil.s
+
+# target to generate assembly for a file
+Polinom_reductibil.cpp.s:
+	$(MAKE) -f CMakeFiles/tema_2.dir/build.make CMakeFiles/tema_2.dir/Polinom_reductibil.cpp.s
+.PHONY : Polinom_reductibil.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... tema_2"
+	@echo "... Monom.o"
+	@echo "... Monom.i"
+	@echo "... Monom.s"
+	@echo "... Polinom.o"
+	@echo "... Polinom.i"
+	@echo "... Polinom.s"
+	@echo "... Polinom_ireductibil.o"
+	@echo "... Polinom_ireductibil.i"
+	@echo "... Polinom_ireductibil.s"
+	@echo "... Polinom_reductibil.o"
+	@echo "... Polinom_reductibil.i"
+	@echo "... Polinom_reductibil.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
