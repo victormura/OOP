@@ -12,7 +12,7 @@ using std::exit;
 #include "Polinom.h"
 
 
-Polynomial::Polynomial()
+Polinom::Polinom()
 {
     degree        = 0;
     coefficients = 0;
@@ -20,23 +20,22 @@ Polynomial::Polynomial()
 }
 
 
-Polynomial::Polynomial(int dgr, const double* clist)
+Polinom::Polinom(int dgr, const double* clist)
 {
     getDegree();
-
 }
 
-int Polynomial::getDegree() const
+int Polinom::getDegree() const
 {
     return degree;
 }
 
-Polynomial:: ~Polynomial()
+Polinom:: ~Polinom()
 {
     setDegree(0);
 }
 
-int Polynomial::setDegree(int dgr)
+int Polinom::setDegree(int dgr)
 {
 
     if( dgr <0 ) {
@@ -65,7 +64,7 @@ int Polynomial::setDegree(int dgr)
 }
 
 //copy constructor
-Polynomial::Polynomial(const Polynomial& clist) : degree(0), coefficients(0)
+Polinom::Polinom(const Polinom& clist) : degree(0), coefficients(0)
 {
     if( clist.getDegree()<=0 ) {
         setDegree(0);
@@ -78,11 +77,11 @@ Polynomial::Polynomial(const Polynomial& clist) : degree(0), coefficients(0)
 }
 
 
-const Polynomial& Polynomial :: operator=(const Polynomial& clist)
+const Polinom& Polinom :: operator=(const Polinom& clist)
 {
     if ( &clist==this )
     {
-        cerr << "Warning:  attempt to copy Polynomial onto self" << endl;
+        cerr << "Warning:  attempt to copy Polinom onto self" << endl;
     }
     else {
         if( clist.getDegree()<=0 ) {
@@ -97,7 +96,7 @@ const Polynomial& Polynomial :: operator=(const Polynomial& clist)
     return *this;
 }
 
-bool  Polynomial::operator==(const Polynomial& clist) const
+bool  Polinom::operator==(const Polinom& clist) const
 {
     bool result=true;
     if( degree!=clist.getDegree() ) {
@@ -111,7 +110,7 @@ bool  Polynomial::operator==(const Polynomial& clist) const
 }
 
 
-double Polynomial::operator[]( int index ) const
+double Polinom::operator[]( int index ) const
 {
     if( index<0 || index>= degree ) {
         cerr << "Attempt to access element outside index bounds"
@@ -123,7 +122,7 @@ double Polynomial::operator[]( int index ) const
 }
 
 
-double& Polynomial::operator[]( int index )
+double& Polinom::operator[]( int index )
 {
     if( index < 0 || index>= degree  ) {
         cerr << "Attempt to access element outside index bounds"
@@ -136,7 +135,7 @@ double& Polynomial::operator[]( int index )
 
 
 
-ostream& operator<<( ostream& left, const Polynomial& right)
+ostream& operator<<( ostream& left, const Polinom& right)
 {
     if( right.getDegree() > 0 ) {
         left << endl;
@@ -162,7 +161,7 @@ ostream& operator<<( ostream& left, const Polynomial& right)
 }
 
 
-istream& operator>>( istream& left, Polynomial& right)
+istream& operator>>( istream& left, Polinom& right)
 {
     int tmp;
     left >> tmp;

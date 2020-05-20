@@ -7,26 +7,22 @@
 using std::ostream;
 using std::istream;
 
-class Polynomial
+class Polinom
 {
 
 public:
-    Polynomial();
-    Polynomial( int dgr, const double* clist );
-    Polynomial( const Polynomial& );
-    ~Polynomial();
+    Polinom();
+    Polinom( int dgr, const double* clist );
+    Polinom( const Polinom& );
+    ~Polinom();
 
     int setDegree(int dgr);
     int getDegree() const;
 
-    const Polynomial& operator=( const Polynomial& clist);
-    bool operator==( const Polynomial& clist) const;
+    const Polinom& operator=( const Polinom& clist);
+    bool operator==( const Polinom& clist) const;
 
-
-
-
-    void printPolynomial( int dgr, const double* clist );
-
+    void printPolinom( int dgr, const double* clist );
 
     double operator[]( int index ) const;
     double& operator[]( int index );
@@ -34,12 +30,10 @@ public:
 private:
     int    degree;
     double *coefficients; // list of coefficients
-
-
 };
 
-ostream& operator<<( ostream& , const Polynomial& );
-istream& operator>>( istream& , Polynomial& );
+ostream& operator<<( ostream& , const Polinom& );
+istream& operator>>( istream& , Polinom& );
 
 
 #endif //TEMA_2_POLINOM_H
