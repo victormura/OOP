@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victormura/Desktop/Study/UNIBUC/year_I/semester_II/OOP/colocviu/132_Mura_Victor.cpp
+iostream
+-
+unordered_map
+-
+
